@@ -22,7 +22,7 @@ function About() {
         transition={{duration:1}}
         >
           <p className='text-textgray leading-loose tracking-wider'>
-          I am a Business Management graduate, a Business Assistant and a <span className="text-primary font-bold ">Canva Expert</span> with more than 3years experience. I am also a <span className="text-primary font-bold">Canvassador</span>. I take my client's work very seriously and always deliver on time.
+          I am a Business Management graduate, a Business Assistant and a <span className="text-primary font-bold ">Canva Expert</span> with more than 3years experience. I am also a <span className="text-primary font-bold">Canvassador</span>. I take my client&apos;s work very seriously and always deliver on time.
           </p>
           <p className='text-textgray leading-loose mt-6   tracking-wider'>
           {/* My works are always exceptional and extraordinary; reason why my clients stick with me. */}
