@@ -40,7 +40,7 @@ export default function Videos() {
   return (
     <section className='w-[85%] max-w-[1200px] mx-auto py-[2rem] ' id="video">
         <h2 className='font-extrabold text-2xl sm:text-3xl text-textColor text-center'>Videos</h2>
-      <div className=' grid gap-x-12 gap-y-8 pt-[5rem] mt-8 md:grid-cols-2 '>
+      <div className=' grid gap-x-12 gap-y-8 pt-[3rem] mt-8 md:grid-cols-2 '>
         {videos.map((video,index)=>{
           return (
             <div key={index} className={'rounded-lg overflow-hidden  text-textColor shadow-md border border-primary p-2'}>

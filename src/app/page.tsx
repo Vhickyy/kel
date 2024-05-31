@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <Header/>
-      <section className="flex w-[85%] max-w-[1200px] mx-auto justify-between items-center py-[8rem]">
+      <section className=" w-[85%] max-w-[1200px] mx-auto  items-center py-[8rem]">
         <aside>
           {/* <motion.div className="pt-[10rem]  md:pt-[4rem]" */}
         {/* initial={{opacity:0, x:-100}}
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         {/* </motion.div> */}
         </aside>
-        <div className='h-[17rem] w-[10rem] sm:w-[17rem] bg-blur  top-[15%] right-0 -z-10 blur-[7rem] rounded-full'></div>
+        <div className='h-[17rem] w-[10rem] sm:w-[17rem] bg-blur absolute top-[15%] right-0 -z-10 blur-[7rem] rounded-full'></div>
         {/* <aside className="w-[40%]">
           <div className="w-full h-[25rem] rounded-full relative  overflow-hidden">
             <Image src={Profile} alt="" width={350} height={350}  className=" w-full absolute inset-0 -mt-9 object-contain"/>
